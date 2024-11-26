@@ -1,0 +1,17 @@
+### POST request: general admin Login ( localhost )
+POST localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "memberId": "admin",
+  "memberPassword": "1234"
+}
+
+### POST request: general user Login ( localhost )
+POST localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "memberId": "test01",
+  "memberPassword": "1234"
+}
